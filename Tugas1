@@ -1,0 +1,10 @@
+karyawan1 = ("001", "Ahmad", "IT", "Programmer", 5000000)
+karyawan2 = ("002", "Budi", "HR", "Recruiter", 4500000)
+karyawan3 = ("003", "Citra", "Finance", "Akuntan", 5500000)
+
+data_karyawan = (karyawan1, karyawan2, karyawan3)
+
+print("Data Karyawan:")
+for karyawan in data_karyawan:
+    print(f"ID: {karyawan[0]}, Nama: {karyawan[1]}, Departemen: {karyawan[2]}, Jabatan: {karyawan[3]}, Gaji: {karyawan[4]}")
+
